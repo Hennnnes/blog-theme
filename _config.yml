@@ -1,0 +1,22 @@
+title: Blog theme
+author: Hennes Römmer # name of site's author
+email: hroemmer@googlemail.com # email of site's author
+url: blog.hennes.me # root address of the site
+description: > # description of the site (multiple lines allowed)
+  Sample blog theme
+permalink: /:slug.html
+
+favicon: "" # relative path to site's favicon
+
+theme: blog-theme # github pages: remote_theme: hennnnes/blog-theme
+
+theme_config:
+  back_home_text: ".." # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how date is formatted
+
+sass:
+  style: :compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
