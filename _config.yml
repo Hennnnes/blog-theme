@@ -14,6 +14,11 @@ theme_config:
   back_home_text: ".." # customize text for homepage link in post layout
   date_format: "%Y-%m-%d" # customize how date is formatted
 
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: true
+
 sass:
   style: :compressed
 
