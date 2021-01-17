@@ -19,7 +19,9 @@ article
 	margin-bottom: 2rem
 
 footer
-	margin-top: 5rem
+	border-top: 1px solid #42424f
+	margin-top: 4rem
+	padding-top: .5rem
 
 h2
 	margin-bottom: 0.5rem
@@ -43,6 +45,19 @@ blockquote
 
 img
 	max-width: 100%
+
+nav
+	ul
+		list-style: none
+		margin-top: 0
+		padding-left: 0
+
+	li
+		display: inline
+		&:not(:last-of-type):after
+			content: ','
+			display: inline-block
+			text-indent: -3px
 
 a
 	color: currentColor
