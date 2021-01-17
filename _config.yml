@@ -19,9 +19,6 @@ kramdown:
   input: GFM
   hard_wrap: true
 
-sass:
-  style: :compressed
-
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
