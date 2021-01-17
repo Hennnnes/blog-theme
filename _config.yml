@@ -6,7 +6,7 @@ description: > # description of the site (multiple lines allowed)
   Sample blog theme
 permalink: /:slug.html
 
-favicon: "" # relative path to site's favicon
+#favicon: "/favicon.png" # relative path to site's favicon
 
 theme: blog-theme # github pages: remote_theme: hennnnes/blog-theme
 
