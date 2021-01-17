@@ -12,7 +12,7 @@ layout: default
 		{%- include header.html -%}
 	</header>
 	<main>
-		{{ content }}
+		{{ content | replace: '<a href="http', '<a rel="nofollow noopener noreferrer" href="http' }}
 	</main>
 	<footer>
 		{%- include footer.html -%}
